@@ -35,6 +35,7 @@ interface WorkbenchQuickNavItem {
   color?: string;
   icon: Component | string;
   title: string;
+  path: string;
 }
 
 export type {

@@ -10,5 +10,14 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "reports": {
+    "title": "报表",
+    "design-pqc": "设计PQC",
+    "fqc-recheck": "FQC复检",
+    "translate-pqc": "翻译复检"
+  },
+  "home": {
+    "title": "首页"
   }
 }

@@ -31,8 +31,8 @@ const defaultPreferences: Preferences = {
     styleType: 'normal',
   },
   copyright: {
-    companyName: 'Vben',
-    companySiteLink: 'https://www.vben.pro',
+    companyName: '康泰健美医疗科技（深圳）有限公司',
+    companySiteLink: '#',
     date: '2024',
     enable: true,
     icp: '',
@@ -50,7 +50,7 @@ const defaultPreferences: Preferences = {
   },
   logo: {
     enable: true,
-    source: 'https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp',
+    source: '/logo.png',
   },
   navigation: {
     accordion: true,

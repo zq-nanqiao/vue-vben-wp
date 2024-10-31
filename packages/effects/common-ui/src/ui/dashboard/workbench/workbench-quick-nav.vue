@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { WorkbenchQuickNavItem } from '../typing';
 
+import { useRouter } from 'vue-router';
+
 import {
   Card,
   CardContent,
@@ -21,6 +23,12 @@ defineOptions({
 withDefaults(defineProps<Props>(), {
   items: () => [],
 });
+
+const router = useRouter();
+
+function goToPage(path: string) {
+  router.push(path);
+}
 </script>
 
 <template>
@@ -37,6 +45,7 @@ withDefaults(defineProps<Props>(), {
             'border-b-0': index < 3,
           }"
           class="flex-col-center border-border group w-1/3 cursor-pointer border-b border-r border-t py-8 hover:shadow-xl"
+          @click="goToPage(item.path)"
         >
           <VbenIcon
             :color="item.color"

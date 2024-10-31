@@ -8,5 +8,10 @@ export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
     name: import.meta.env.VITE_APP_TITLE,
+    defaultAvatar: '',
+  },
+  widget: {
+    languageToggle: false,
+    notification: false,
   },
 });

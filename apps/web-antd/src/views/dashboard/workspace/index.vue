@@ -79,31 +79,33 @@ const quickNavItems: WorkbenchQuickNavItem[] = [
     color: '#1fdaca',
     icon: 'ion:home-outline',
     title: '首页',
+    path: '/workspace',
   },
-  {
-    color: '#bf0c2c',
-    icon: 'ion:grid-outline',
-    title: '仪表盘',
-  },
-  {
-    color: '#e18525',
-    icon: 'ion:layers-outline',
-    title: '组件',
-  },
-  {
-    color: '#3fb27f',
-    icon: 'ion:settings-outline',
-    title: '系统管理',
-  },
-  {
-    color: '#4daf1bc9',
-    icon: 'ion:key-outline',
-    title: '权限管理',
-  },
+  // {
+  //   color: '#bf0c2c',
+  //   icon: 'ion:grid-outline',
+  //   title: '仪表盘',
+  // },
+  // {
+  //   color: '#e18525',
+  //   icon: 'ion:layers-outline',
+  //   title: '组件',
+  // },
+  // {
+  //   color: '#3fb27f',
+  //   icon: 'ion:settings-outline',
+  //   title: '系统管理',
+  // },
+  // {
+  //   color: '#4daf1bc9',
+  //   icon: 'ion:key-outline',
+  //   title: '权限管理',
+  // },
   {
     color: '#00d8ff',
     icon: 'ion:bar-chart-outline',
     title: '图表',
+    path: '/reports/design-pqc',
   },
 ];
 
